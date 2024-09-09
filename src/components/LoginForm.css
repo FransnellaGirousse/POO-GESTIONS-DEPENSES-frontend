@@ -1,0 +1,66 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f2f5; /* Couleur de fond claire */
+  }
+  
+  .login-form {
+    background-color: #ffffff; /* Couleur de fond du formulaire */
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px; /* Largeur maximale du formulaire */
+    text-align: center;
+  }
+  
+  .login-form h2 {
+    margin-bottom: 1rem;
+    color: #1877f2; /* Couleur de texte du titre */
+  }
+  
+  .login-form input {
+    width: 100%;
+    padding: 0.8rem;
+    margin: 0.5rem 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .login-form button {
+    width: 100%;
+    padding: 0.8rem;
+    margin: 1rem 0;
+    background-color: #1877f2; /* Couleur du bouton */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .login-form button:hover {
+    background-color: #145dbf; /* Couleur du bouton au survol */
+  }
+  
+  .login-footer {
+    margin-top: 1rem;
+  }
+  
+  .login-footer a {
+    color: #1877f2; /* Couleur des liens */
+    text-decoration: none;
+  }
+  
+  .login-footer a:hover {
+    text-decoration: underline;
+  }
+  
+  .login-footer p {
+    margin-top: 1rem;
+    color: #65676b; /* Couleur du texte de pied de page */
+  }
+  

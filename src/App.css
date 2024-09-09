@@ -1,0 +1,150 @@
+/* Styles de base */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1, h2 {
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 40px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+input, select {
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+input:focus, select:focus {
+  outline: none;
+  border-color: #5a67d8;
+}
+
+button {
+  background-color: #5a67d8;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #434190;
+}
+
+/* Styles pour la liste des dépenses */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li:nth-child(even) {
+  background-color: #f1f1f1;
+}
+
+/* Total des dépenses */
+.total {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  color: #5a67d8;
+  margin-top: 20px;
+}
+
+/* Dashboard Styles */
+.dashboard-summary {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 40px;
+}
+
+.summary-item {
+  background-color: #5a67d8;
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 200px;
+  text-align: center;
+}
+
+.summary-item h2 {
+  margin-bottom: 10px;
+}
+
+.summary-item p {
+  font-size: 24px;
+  font-weight: bold;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.logout-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #f44336; /* Couleur rouge pour se différencier */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.logout-button:hover {
+  background-color: #d32f2f; /* Couleur un peu plus foncée au survol */
+}
