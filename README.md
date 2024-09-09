@@ -1,3 +1,9 @@
+*************************Suivies de dépenses**********************
+
+Développement d'une application de suivi des dépenses personnelles avec des composants et des interfaces pour catégoriser les dépenses.
+****Programmation Orienté Objet****
+
+********************************************************************
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
